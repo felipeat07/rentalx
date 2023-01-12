@@ -10,4 +10,4 @@ app.use(express.json());
 app.use("/categories", categoriesRoutes);
 app.use("/specifications", specificationsRoutes);
 
-app.listen(3333, () => console.log("O pai ta ON!"));
+app.listen(3333, () => console.log("Servidor ON na porta 3333"));
